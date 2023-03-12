@@ -6,10 +6,10 @@
 //1.4 Crea una otra variable 'z' y asignale el valor de 'h' + 'y'.
 
 let myFavoriteHero = 'Hulk';
-let x = 50;
-let h = 5;
-let y = 10;
-let z = h + y;
+//let x = 50;
+//let h = 5;
+//let y = 10;
+//let z = h + y;
 
 //interaccion#2: variables avanzadas
 //1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
@@ -49,5 +49,32 @@ car2.finalPrice = globalBasePrice + car2.basePrice;
 console.log(car1);
 console.log(car2);
 
+//Iteración#3: Operadores
+//1.1 Multiplica 10 por 5 y muestra el resultado mediante alert.
+//1.2 Divide 10 por 2 y muestra el resultado en un alert.
+//1.3 Muestra mediante un alert el resto de dividir 15 por 9.
+//1.4 Usa el correcto operador de asignación que resultará en x = 15, 
+//teniendo dos variables y = 10 y z = 5.
+//1.5 Usa el correcto operador de asignación que resultará en x = 50,
+//teniendo dos variables y = 10 y z = 5.
+
+let multi = (10 * 5);
+console.log(multi)
+
+let div = (10 / 2);
+console.log(div)
+
+let div2 = (15/9);
+console.log(div2)
+
+let y = 10;
+let z = 5;
+let x = (z + y);
+console.log(x)
+
+let y = 10;
+let z = 5;
+let x = (z * y);
+console.log(x)
 
 
